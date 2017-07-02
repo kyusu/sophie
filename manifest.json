@@ -1,0 +1,29 @@
+{
+  "page_action": {
+    "browser_style": true,
+    "default_title": "Tells you on which AS instance you're currently on.",
+    "default_icon": {
+      "19": "icons/default19.png",
+      "38": "icons/default38.png"
+    }
+  },
+  "description": "Tells you on which AS instance you're currently on.",
+  "icons": {
+    "48": "icons/sophie.png",
+    "96": "icons/sophie@2x.png"
+  },
+  "homepage_url": "https://github.com/kyusu/sophie",
+  "manifest_version": 2,
+  "name": "Sophie",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "<all_urls>",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "sophie.js"
+    ]
+  }
+}
